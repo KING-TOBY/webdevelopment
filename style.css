@@ -21,13 +21,13 @@ h1{
 }
 h2{
     text-align: center;
-    color: rgb(4, 61, 61);
+    color: rgb(3, 48, 48);
     font-size: 40px;
     background-color: beige;
 }
 form{
     color: rgb(250, 244, 244);
-    background-color: rgb(45, 67, 70);
+    background-color: rgb(3, 48, 48);
     font-size: 24px;
 }
 ul{
@@ -43,7 +43,7 @@ ul li{
 }
 ul li a{
     text-decoration: none;
-    color: rgb(3, 77, 77);
+    color: rgb(3, 48, 48);
     padding: 5px 20px;
     border: 1px solid transparent;
     transition: 0.5 ease;
@@ -51,7 +51,11 @@ ul li a{
 }
 ul li a:hover{
     background-color: rgb(247, 159, 46);
-    color: rgb(2, 63, 63);
+    color: rgb(3, 48, 48);
+}
+ul li:active a{
+    background-color: rgb(247, 159, 46);
+    color: rgb(3, 48, 48);
 }
 button{
     margin-bottom: 111px;
@@ -65,4 +69,97 @@ button{
 }
 button:hover{
     background-color: rgb(212, 73, 8);
+}
+.title0{
+    position: absolute;
+    top: 23%;
+    left: 39%;
+}
+.title0 h1{
+    color: rgba(3, 48, 48);
+    background-color: rgb(247, 247, 247);
+    font-size: 40px;
+    font-family: 'Times New Roman';
+    text-transform: none;
+    
+   
+}
+.button{
+    position: absolute;
+    top: 33%;
+    left: 25%;
+}
+.btn{
+    border: 1px solid rgb(214, 220, 226);
+    padding: 5px 15px;
+    color: rgb(214, 220, 226);
+    background-color: rgb(3, 48, 48);
+    transition: 0.5 ease;
+    font-size: 18px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color:rgb(212, 73, 8);
+    color: black;
+}
+.title1{
+    position: absolute;
+    top: 33%;
+    left: 9%;
+}
+.title1{
+    color:rgb(3, 48, 48);
+    background-color: rgb(241, 241, 241);
+    font-family: Arial;
+}
+.paragraph1{
+    position: absolute;
+    top:43%;
+    left: 2%;
+}
+.paragraph1{
+    color: rgb(214, 220, 226);
+    font-size: 17px;
+    background-color:rgb(3, 48, 48)
+    
+    
+}
+
+.title2 h2{
+    position: absolute;    
+    top: 33%;
+    left: 71%;
+}
+.title2 h2{
+    font-size: 40px;
+}
+.paragraph2{
+    position: absolute;
+    top: 43%;
+    left: 59%;
+}
+.paragraph2{
+    color: rgb(214, 220, 226);
+    font-size: 17px;
+    background-color:rgb(3, 48, 48)
+
+}.title3 h2{
+    position: absolute;    
+    top: 53%;
+    left: 71%;
+}
+.title3 h2{
+    font-size: 40px;
+}
+.paragraph3{
+    position: absolute;
+    top: 63%;
+    left: 64%;
+}
+.paragraph3{
+    color: rgb(214, 220, 226);
+    font-size: 17px;
+    background-color:rgb(3, 48, 48)
+
 }
